@@ -15,6 +15,9 @@ public class Department implements Serializable {
         this.id = id;
         this.name = name;
     }
+    public Department(String name){
+        this.name = name;
+    }
 
     public Integer getId() {
         return id;
